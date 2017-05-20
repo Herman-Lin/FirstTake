@@ -1,0 +1,197 @@
+html , body{ height:100.1%;text-align:center }
+
+* {margin:0px; padding:0px}
+
+img {border:0px}
+
+a:link {color:#0f30ac !important;text-decoration: underline;}
+a:hover {color:#006cff !important;text-decoration: underline;}
+a:visited {color:#858585 !important;text-decoration: underline;}
+a:active {color:#ff3232 !important;text-decoration: underline;}
+
+h1 {font-family: arial; font-size: 30px;margin-right:20px; color: #f0f3bd !important;}
+h2 {font-family: Impact, Charcoal, sans-serif; font-size: 3vw;margin-top:20px; margin-bottom:20px; color: #f0f3bd !important; text-decoration: underline;}
+h3 {font-family: arial; font-size: 24px;margin-bottom:1vw;color: #f0f3bd !important;}
+h4 {margin-bottom:20px;font-family: 'Lucida Grande', Tahoma, Arial, Helvetica, sans-serif;font-size: 16px;}
+p {
+    font-family: "Sans-serif", Arial; font-size: 22px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+body {
+  background-color:#232f64;
+  background-image: url("img/bg-2.jpg");
+  background-size:cover;
+  background-blend-mode: overlay;
+}
+#header {height: 16vh; width:100%; background:rgba(31, 41, 56, 0.75);/* background-image: url(img/header_bg.png);background-repeat: repeat-x; */ text-align:left }
+
+#firstTake {padding-left: 10px; padding-top: 10px; float: left;}
+
+#menu_launch_page {background-image: url(img/tabs_bg.png);background-repeat: repeat-x;width:100%;height:48px}
+#menu_launch_page table {margin: 0 auto;}
+
+#lowerContainer { position:relative;width:100%; /* background-image: url(img/sub_header_bg.png);background-repeat: repeat-x; */ padding-top:27px; }
+
+#content {min-width:800px !important;padding-left:0px;font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;line-height:1.3em;text-align:center}
+
+img {
+  width: 35vh;
+}
+
+#form {
+  height: 84vh;
+  overflow-y:scroll;
+}
+
+#listHolder {
+  display: block;
+  width: 100%;
+  height: 39vh;
+  overflow-y:auto;
+}
+.addBtn:hover {
+    background-color: #bbb;
+}
+
+#centered_div {
+   position: absolute;
+   top: 40%;
+   bottom: 25%;
+   left: 25%;
+   right: 25%;
+   height: 14vw;
+   background-color: rgba(255,255,255, 0.25);
+   border-radius: 5vh;
+}
+
+#centered_div h2 {
+  font-family: Arial; font-size: 3vw;margin-top:20px; margin-bottom:20px; color: #f0f3bd !important; text-decoration: none;
+}
+#centered_div input[type="text"] {
+  margin: auto;
+  text-align: center;
+  width: 20vw;
+  background-color: rgba(200, 200 , 200, 0.7);
+  border-radius: 0.25vw;
+  padding: 0.5vw 1vw;
+  font-family: Arial;
+  font-size: 1.5vw;
+  color: rgba(240, 240 , 240, 1);
+  border: none;
+  outline: none;
+}
+
+#formWrapper input[type="text"] {
+  margin-left: 2vw;
+  width: 30vw;
+  text-align: left;
+  background-color: #05668d;
+  border-radius: 10px;
+  border-left: 20px;
+  border-right: 20px;
+  padding: 10px 30px;
+  font-family: Arial;
+  font-size: 25px;
+  color: #f0f3bd;
+  border: none;
+  float: left;
+  outline: none;
+}
+
+
+input[type="submit"] {
+  border-radius: 1.5vw;
+  background-color: #05668d;
+  padding: 0.5vw 1vw;
+  font-family: Arial;
+  font-size: 1.5vw;
+  color: #f0f3bd;
+  border: none;
+  transition: 0.3s;
+  outline: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #f0f3bd;
+  cursor: pointer;
+  color: #028090;
+}
+
+.radio-toolbar input[type="radio"] {
+  display: none;
+}
+
+.radio-toolbar label {
+  border-radius: 2vw;
+  margin-right: 1vw;
+  width: 3vw;
+  display: inline-block;
+  background-color: #05668d;
+  padding: 0.25vw 1vw;
+  font-family: Arial;
+  font-size: 2vw;
+  color: #f0f3bd;
+  transition: 0.3s;
+}
+
+.radio-toolbar label:hover {
+    background-color: #F2A046;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.radio-toolbar input[type="radio"]:checked+label {
+  background-color: #e78215;
+  transition: 0.3s;
+}
+.radio-toolbar input[type="radio"]:hover {
+  background-color: rgb(31, 41, 56);
+  transition: 0.3s;
+}
+
+table {
+  border: 1px solid;
+  display: inline-block;
+  background-color: white;
+  font-size: 20px;
+  font-family: arial;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 500px;
+}
+
+ul {
+    margin: 0;
+    padding: 20px;
+}
+
+ul li {
+    width: 85%;
+    margin-bottom: 0.5vw;
+    position: relative;
+    border-radius: 1.5vw;
+    list-style-type: none;
+    font-family: Arial;
+    cursor: pointer;
+    position: relative;
+    padding: 0.75vw 0.5vw 0.75vw 1.5vw;
+    background: #05668d;
+    font-size: 1.5vw;
+    transition: 0.2s;
+    color: #f0f3bd;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -user-select: none;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+    background: #0957b6;
+}

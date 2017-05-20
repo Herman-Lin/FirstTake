@@ -1,0 +1,12 @@
+body {
+    background-image: url("img_bg.png");
+    background-color: #cccccc;
+}
+
+#centered_div {
+  display: block;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 40vw;
+  height: 20vh;
+}
